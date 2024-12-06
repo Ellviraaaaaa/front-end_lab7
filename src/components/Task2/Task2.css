@@ -1,0 +1,51 @@
+.task2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    padding: 25px;
+    background: linear-gradient(145deg, #7a77d2, #051a3b); 
+    border-radius: 15px;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.card {
+    background-color: #2b3545; 
+    border-radius: 12px;
+    width: 260px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(11, 14, 208, 0.5); 
+    transition: transform 0.3s, box-shadow 0.3s ease;
+    background: linear-gradient(135deg, #c928a7, #0e2c72);
+    border: 2px solid transparent; 
+    background-clip: padding-box;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7); 
+}
+
+.card-image {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 3px solid #4c38be; 
+}
+
+.card h2 {
+    font-size: 1.4em;
+    margin: 15px 0;
+    font-weight: 700;
+    color: rgb(10, 148, 183);
+    font-family: 'Poppins', sans-serif;
+}
+
+.card p {
+    color: #a0b5eb;
+    font-size: 1em;
+    line-height: 1.6;
+}
+
