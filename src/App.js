@@ -6,7 +6,7 @@ import Task2 from "./components/Task2/Task2";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/lab7">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Task1" element={<Task1 />} />
